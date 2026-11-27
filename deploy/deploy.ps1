@@ -56,7 +56,7 @@ if ($Setup) {
         secretmanager.googleapis.com sqladmin.googleapis.com iap.googleapis.com iam.googleapis.com
 
     $repos = gcloud artifacts repositories list --location=$Region --project=$Project --format="value(name)"
-    if (-not ($repos -match '/daily$')) {
+    if (-not ($repos -match '(^|/)daily$')) {
         G artifacts repositories create daily --repository-format=docker --location=$Region
     }
 
@@ -81,7 +81,7 @@ if ($Setup) {
         Invoke-Gcloud sql databases create $DbName --instance=$SqlInstance --project=$SqlProject
     }
     $secrets = gcloud secrets list --project=$Project --format="value(name)"
-    if (-not ($secrets -match "/$Secret$" -or $secrets -contains $Secret)) {
+    if (-not ($secrets -match "(^|/)$Secret$")) {
         $bytes = New-Object byte[] 24
         [System.Security.Cryptography.RandomNumberGenerator]::Create().GetBytes($bytes)
         $password = ([Convert]::ToBase64String($bytes)) -replace '[+/=]', 'x'
@@ -105,13 +105,13 @@ if ($Setup) {
 # --- image ----------------------------------------------------------------
 $sha = (git -C $Root rev-parse --short HEAD).Trim()
 if (-not $SkipBuild) {
-    if (git -C $Root status --porcelain) { Write-Warning "Uncommitted changes – image tag $sha does not match the commit exactly." }
+    if (git -C $Root status --porcelain) { Write-Warning "Uncommitted changes - image tag $sha does not match the commit exactly." }
     $Image = "$Repo/app:$sha"
     Push-Location $Root
     try { G builds submit --region=$Region --tag $Image . } finally { Pop-Location }
 } else {
     $Image = (gcloud artifacts docker images list "$Repo/app" --project=$Project --sort-by=~UPDATE_TIME --limit=1 --format="value(format('{0}@{1}', package, version))")
-    if (-not $Image) { throw "No image in $Repo/app yet – run without -SkipBuild first." }
+    if (-not $Image) { throw "No image in $Repo/app yet - run without -SkipBuild first." }
 }
 
 # --- Cloud Run service behind IAP ------------------------------------------
