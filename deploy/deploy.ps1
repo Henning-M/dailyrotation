@@ -41,6 +41,16 @@ function Invoke-Gcloud {
     if ($LASTEXITCODE -ne 0) { throw "gcloud $args failed" }
 }
 function G { Invoke-Gcloud @args --project=$Project }
+# IAM needs a while to see freshly created service accounts ("does not exist"): retry for up to 2 minutes.
+function Invoke-Retry {
+    for ($i = 1; ; $i++) {
+        gcloud @args | Out-Null
+        if ($LASTEXITCODE -eq 0) { return }
+        if ($i -ge 12) { throw "gcloud $args failed" }
+        Write-Host "Retrying in 10 s (IAM propagation)..."
+        Start-Sleep -Seconds 10
+    }
+}
 
 # --- one-time setup -------------------------------------------------------
 if ($Setup) {
@@ -78,8 +88,8 @@ if ($Setup) {
         G iam service-accounts create $SaName --display-name="Daily Rotation web (Cloud Run)"
     }
     # Cloud SQL access on the shared instance (other project)
-    Invoke-Gcloud projects add-iam-policy-binding $SqlProject --member="serviceAccount:$Sa" `
-        --role=roles/cloudsql.client --condition=None --quiet | Out-Null
+    Invoke-Retry projects add-iam-policy-binding $SqlProject --member="serviceAccount:$Sa" `
+        --role=roles/cloudsql.client --condition=None --quiet
 
     # Database + user on the shared instance, password in Secret Manager
     $dbs = gcloud sql databases list --instance=$SqlInstance --project=$SqlProject --format="value(name)"
@@ -103,8 +113,8 @@ if ($Setup) {
             G secrets create $Secret --data-file=$($tmp.FullName) --replication-policy=automatic
         } finally { Remove-Item $tmp.FullName }
     }
-    G secrets add-iam-policy-binding $Secret --member="serviceAccount:$Sa" `
-        --role=roles/secretmanager.secretAccessor --quiet | Out-Null
+    Invoke-Retry secrets add-iam-policy-binding $Secret --member="serviceAccount:$Sa" `
+        --role=roles/secretmanager.secretAccessor --quiet --project=$Project
     Write-Host "Setup done."
 }
 
