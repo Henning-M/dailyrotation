@@ -1,0 +1,434 @@
+{
+  "_comment": "Curated rankings. Drafted with an LLM and NOT yet checked: verify each list, fix it if needed and set \"reviewed\": true. Entries are in ranking order (ties already resolved). Every list needs at least 10 entries.",
+  "lists": [
+    {
+      "id": "mohs-hardness-scale",
+      "title": "Mohs scale of mineral hardness – hardest first",
+      "source": "Mohs scale (reference minerals)",
+      "reviewed": false,
+      "entries": [
+        { "label": "Diamond", "value": "10" },
+        { "label": "Corundum", "value": "9" },
+        { "label": "Topaz", "value": "8" },
+        { "label": "Quartz", "value": "7" },
+        { "label": "Orthoclase", "value": "6" },
+        { "label": "Apatite", "value": "5" },
+        { "label": "Fluorite", "value": "4" },
+        { "label": "Calcite", "value": "3" },
+        { "label": "Gypsum", "value": "2" },
+        { "label": "Talc", "value": "1" }
+      ]
+    },
+    {
+      "id": "largest-moons-solar-system",
+      "title": "Largest moons in the Solar System by diameter",
+      "source": "NASA planetary fact sheets",
+      "reviewed": false,
+      "entries": [
+        { "label": "Ganymede", "value": "5,268 km" },
+        { "label": "Titan", "value": "5,150 km" },
+        { "label": "Callisto", "value": "4,821 km" },
+        { "label": "Io", "value": "3,643 km" },
+        { "label": "The Moon", "value": "3,475 km" },
+        { "label": "Europa", "value": "3,122 km" },
+        { "label": "Triton", "value": "2,707 km" },
+        { "label": "Titania", "value": "1,577 km" },
+        { "label": "Rhea", "value": "1,527 km" },
+        { "label": "Oberon", "value": "1,523 km" },
+        { "label": "Iapetus", "value": "1,469 km" },
+        { "label": "Charon", "value": "1,212 km" },
+        { "label": "Umbriel", "value": "1,169 km" },
+        { "label": "Ariel", "value": "1,158 km" }
+      ]
+    },
+    {
+      "id": "planets-and-dwarf-planets-diameter",
+      "title": "Planets and largest dwarf planets by diameter",
+      "source": "NASA planetary fact sheets",
+      "reviewed": false,
+      "entries": [
+        { "label": "Jupiter", "value": "139,820 km" },
+        { "label": "Saturn", "value": "116,460 km" },
+        { "label": "Uranus", "value": "50,724 km" },
+        { "label": "Neptune", "value": "49,244 km" },
+        { "label": "Earth", "value": "12,742 km" },
+        { "label": "Venus", "value": "12,104 km" },
+        { "label": "Mars", "value": "6,779 km" },
+        { "label": "Mercury", "value": "4,879 km" },
+        { "label": "Pluto", "value": "2,377 km" },
+        { "label": "Eris", "value": "2,326 km" }
+      ]
+    },
+    {
+      "id": "eight-thousanders",
+      "title": "The fourteen eight-thousanders – highest first",
+      "source": "Common reference heights",
+      "reviewed": false,
+      "entries": [
+        { "label": "Mount Everest", "value": "8,849 m" },
+        { "label": "K2", "value": "8,611 m" },
+        { "label": "Kangchenjunga", "value": "8,586 m" },
+        { "label": "Lhotse", "value": "8,516 m" },
+        { "label": "Makalu", "value": "8,485 m" },
+        { "label": "Cho Oyu", "value": "8,188 m" },
+        { "label": "Dhaulagiri I", "value": "8,167 m" },
+        { "label": "Manaslu", "value": "8,163 m" },
+        { "label": "Nanga Parbat", "value": "8,126 m" },
+        { "label": "Annapurna I", "value": "8,091 m" },
+        { "label": "Gasherbrum I", "value": "8,080 m" },
+        { "label": "Broad Peak", "value": "8,051 m" },
+        { "label": "Gasherbrum II", "value": "8,035 m" },
+        { "label": "Shishapangma", "value": "8,027 m" }
+      ]
+    },
+    {
+      "id": "largest-islands-world",
+      "title": "Largest islands in the world by area",
+      "source": "Common reference areas",
+      "reviewed": false,
+      "entries": [
+        { "label": "Greenland", "value": "2,130,800 km²" },
+        { "label": "New Guinea", "value": "785,753 km²" },
+        { "label": "Borneo", "value": "743,330 km²" },
+        { "label": "Madagascar", "value": "587,041 km²" },
+        { "label": "Baffin Island", "value": "507,451 km²" },
+        { "label": "Sumatra", "value": "443,066 km²" },
+        { "label": "Honshu", "value": "227,960 km²" },
+        { "label": "Victoria Island", "value": "217,291 km²" },
+        { "label": "Great Britain", "value": "209,331 km²" },
+        { "label": "Ellesmere Island", "value": "196,236 km²" },
+        { "label": "Sulawesi", "value": "180,681 km²" },
+        { "label": "South Island (New Zealand)", "value": "145,836 km²" },
+        { "label": "Java", "value": "138,794 km²" }
+      ]
+    },
+    {
+      "id": "largest-lakes-world",
+      "title": "Largest lakes in the world by surface area",
+      "source": "Common reference areas",
+      "reviewed": false,
+      "entries": [
+        { "label": "Caspian Sea", "value": "371,000 km²" },
+        { "label": "Lake Superior", "value": "82,100 km²" },
+        { "label": "Lake Victoria", "value": "68,870 km²" },
+        { "label": "Lake Huron", "value": "59,600 km²" },
+        { "label": "Lake Michigan", "value": "58,000 km²" },
+        { "label": "Lake Tanganyika", "value": "32,600 km²" },
+        { "label": "Lake Baikal", "value": "31,500 km²" },
+        { "label": "Great Bear Lake", "value": "31,000 km²" },
+        { "label": "Lake Malawi", "value": "29,600 km²" },
+        { "label": "Great Slave Lake", "value": "27,200 km²" },
+        { "label": "Lake Erie", "value": "25,700 km²" },
+        { "label": "Lake Winnipeg", "value": "24,500 km²" },
+        { "label": "Lake Ontario", "value": "18,960 km²" }
+      ]
+    },
+    {
+      "id": "german-states-area",
+      "title": "German federal states by area",
+      "source": "Federal Statistical Office (Destatis)",
+      "reviewed": false,
+      "entries": [
+        { "label": "Bavaria", "value": "70,542 km²" },
+        { "label": "Lower Saxony", "value": "47,710 km²" },
+        { "label": "Baden-Württemberg", "value": "35,748 km²" },
+        { "label": "North Rhine-Westphalia", "value": "34,112 km²" },
+        { "label": "Brandenburg", "value": "29,654 km²" },
+        { "label": "Mecklenburg-Vorpommern", "value": "23,295 km²" },
+        { "label": "Hesse", "value": "21,116 km²" },
+        { "label": "Saxony-Anhalt", "value": "20,467 km²" },
+        { "label": "Rhineland-Palatinate", "value": "19,858 km²" },
+        { "label": "Saxony", "value": "18,450 km²" },
+        { "label": "Thuringia", "value": "16,202 km²" },
+        { "label": "Schleswig-Holstein", "value": "15,804 km²" },
+        { "label": "Saarland", "value": "2,571 km²" },
+        { "label": "Berlin", "value": "891 km²" },
+        { "label": "Hamburg", "value": "755 km²" },
+        { "label": "Bremen", "value": "419 km²" }
+      ]
+    },
+    {
+      "id": "brightest-stars-night-sky",
+      "title": "Brightest stars in the night sky (apparent magnitude)",
+      "source": "Common astronomical references",
+      "reviewed": false,
+      "entries": [
+        { "label": "Sirius", "value": "−1.46" },
+        { "label": "Canopus", "value": "−0.74" },
+        { "label": "Alpha Centauri", "value": "−0.27" },
+        { "label": "Arcturus", "value": "−0.05" },
+        { "label": "Vega", "value": "0.03" },
+        { "label": "Capella", "value": "0.08" },
+        { "label": "Rigel", "value": "0.13" },
+        { "label": "Procyon", "value": "0.34" },
+        { "label": "Achernar", "value": "0.46" },
+        { "label": "Betelgeuse", "value": "~0.50 (variable)" },
+        { "label": "Hadar", "value": "0.61" },
+        { "label": "Altair", "value": "0.76" },
+        { "label": "Acrux", "value": "0.76" },
+        { "label": "Aldebaran", "value": "0.86" }
+      ]
+    },
+    {
+      "id": "metals-highest-melting-point",
+      "title": "Metals with the highest melting point",
+      "source": "CRC Handbook of Chemistry and Physics",
+      "reviewed": false,
+      "entries": [
+        { "label": "Tungsten", "value": "3,422 °C" },
+        { "label": "Rhenium", "value": "3,186 °C" },
+        { "label": "Osmium", "value": "3,033 °C" },
+        { "label": "Tantalum", "value": "3,017 °C" },
+        { "label": "Molybdenum", "value": "2,623 °C" },
+        { "label": "Niobium", "value": "2,477 °C" },
+        { "label": "Iridium", "value": "2,446 °C" },
+        { "label": "Ruthenium", "value": "2,334 °C" },
+        { "label": "Hafnium", "value": "2,233 °C" },
+        { "label": "Technetium", "value": "2,157 °C" },
+        { "label": "Rhodium", "value": "1,964 °C" },
+        { "label": "Vanadium", "value": "1,910 °C" },
+        { "label": "Chromium", "value": "1,907 °C" },
+        { "label": "Zirconium", "value": "1,855 °C" }
+      ]
+    },
+    {
+      "id": "densest-elements",
+      "title": "Densest chemical elements (at room temperature)",
+      "source": "CRC Handbook of Chemistry and Physics",
+      "reviewed": false,
+      "entries": [
+        { "label": "Osmium", "value": "22.59 g/cm³" },
+        { "label": "Iridium", "value": "22.56 g/cm³" },
+        { "label": "Platinum", "value": "21.45 g/cm³" },
+        { "label": "Rhenium", "value": "21.02 g/cm³" },
+        { "label": "Neptunium", "value": "20.45 g/cm³" },
+        { "label": "Plutonium", "value": "19.82 g/cm³" },
+        { "label": "Gold", "value": "19.30 g/cm³" },
+        { "label": "Tungsten", "value": "19.25 g/cm³" },
+        { "label": "Uranium", "value": "19.05 g/cm³" },
+        { "label": "Tantalum", "value": "16.65 g/cm³" },
+        { "label": "Mercury", "value": "13.53 g/cm³" },
+        { "label": "Hafnium", "value": "13.31 g/cm³" }
+      ]
+    },
+    {
+      "id": "elements-earth-crust",
+      "title": "Most abundant elements in the Earth's crust (by mass)",
+      "source": "CRC Handbook of Chemistry and Physics",
+      "reviewed": false,
+      "entries": [
+        { "label": "Oxygen", "value": "46.1%" },
+        { "label": "Silicon", "value": "28.2%" },
+        { "label": "Aluminium", "value": "8.2%" },
+        { "label": "Iron", "value": "5.6%" },
+        { "label": "Calcium", "value": "4.1%" },
+        { "label": "Sodium", "value": "2.4%" },
+        { "label": "Magnesium", "value": "2.3%" },
+        { "label": "Potassium", "value": "2.1%" },
+        { "label": "Titanium", "value": "0.57%" },
+        { "label": "Hydrogen", "value": "0.14%" },
+        { "label": "Phosphorus", "value": "0.105%" },
+        { "label": "Manganese", "value": "0.095%" }
+      ]
+    },
+    {
+      "id": "most-oscars-films",
+      "title": "Films with the most Academy Award wins",
+      "source": "Academy of Motion Picture Arts and Sciences",
+      "reviewed": false,
+      "entries": [
+        { "label": "Ben-Hur (1959)", "value": "11" },
+        { "label": "Titanic (1997)", "value": "11" },
+        { "label": "The Lord of the Rings: The Return of the King (2003)", "value": "11" },
+        { "label": "West Side Story (1961)", "value": "10" },
+        { "label": "Gigi (1958)", "value": "9" },
+        { "label": "The Last Emperor (1987)", "value": "9" },
+        { "label": "The English Patient (1996)", "value": "9" },
+        { "label": "Gone with the Wind (1939)", "value": "8" },
+        { "label": "From Here to Eternity (1953)", "value": "8" },
+        { "label": "On the Waterfront (1954)", "value": "8" },
+        { "label": "My Fair Lady (1964)", "value": "8" },
+        { "label": "Cabaret (1972)", "value": "8" },
+        { "label": "Gandhi (1982)", "value": "8" },
+        { "label": "Amadeus (1984)", "value": "8" },
+        { "label": "Slumdog Millionaire (2008)", "value": "8" }
+      ]
+    },
+    {
+      "id": "highest-grossing-films-2024",
+      "title": "Highest-grossing films of all time (as of end of 2024)",
+      "source": "Box Office Mojo",
+      "reviewed": false,
+      "entries": [
+        { "label": "Avatar", "value": "$2.92B" },
+        { "label": "Avengers: Endgame", "value": "$2.80B" },
+        { "label": "Avatar: The Way of Water", "value": "$2.32B" },
+        { "label": "Titanic", "value": "$2.26B" },
+        { "label": "Star Wars: The Force Awakens", "value": "$2.07B" },
+        { "label": "Avengers: Infinity War", "value": "$2.05B" },
+        { "label": "Spider-Man: No Way Home", "value": "$1.92B" },
+        { "label": "Inside Out 2", "value": "$1.70B" },
+        { "label": "Jurassic World", "value": "$1.67B" },
+        { "label": "The Lion King (2019)", "value": "$1.66B" },
+        { "label": "The Avengers", "value": "$1.52B" },
+        { "label": "Furious 7", "value": "$1.52B" }
+      ]
+    },
+    {
+      "id": "best-selling-consoles-2024",
+      "title": "Best-selling video game consoles of all time (as of end of 2024)",
+      "source": "Manufacturer figures and estimates",
+      "reviewed": false,
+      "entries": [
+        { "label": "PlayStation 2", "value": "~160M" },
+        { "label": "Nintendo DS", "value": "154.0M" },
+        { "label": "Nintendo Switch", "value": "150.9M" },
+        { "label": "Game Boy / Game Boy Color", "value": "118.7M" },
+        { "label": "PlayStation 4", "value": "~117M" },
+        { "label": "PlayStation", "value": "102.5M" },
+        { "label": "Wii", "value": "101.6M" },
+        { "label": "PlayStation 3", "value": "~87M" },
+        { "label": "Xbox 360", "value": "~84M" },
+        { "label": "Game Boy Advance", "value": "81.5M" },
+        { "label": "PlayStation Portable", "value": "~80M" },
+        { "label": "Nintendo 3DS", "value": "75.9M" }
+      ]
+    },
+    {
+      "id": "grand-slam-titles-men",
+      "title": "Most Grand Slam singles titles – men",
+      "source": "ATP / ITF records",
+      "reviewed": false,
+      "entries": [
+        { "label": "Novak Djokovic", "value": "24" },
+        { "label": "Rafael Nadal", "value": "22" },
+        { "label": "Roger Federer", "value": "20" },
+        { "label": "Pete Sampras", "value": "14" },
+        { "label": "Roy Emerson", "value": "12" },
+        { "label": "Björn Borg", "value": "11" },
+        { "label": "Rod Laver", "value": "11" },
+        { "label": "Bill Tilden", "value": "10" },
+        { "label": "Andre Agassi", "value": "8" },
+        { "label": "Jimmy Connors", "value": "8" },
+        { "label": "Ivan Lendl", "value": "8" },
+        { "label": "Fred Perry", "value": "8" },
+        { "label": "Ken Rosewall", "value": "8" }
+      ]
+    },
+    {
+      "id": "f1-world-titles-drivers-2025",
+      "title": "Most Formula 1 World Drivers' Championships (as of 2025)",
+      "source": "FIA records",
+      "reviewed": false,
+      "entries": [
+        { "label": "Lewis Hamilton", "value": "7" },
+        { "label": "Michael Schumacher", "value": "7" },
+        { "label": "Juan Manuel Fangio", "value": "5" },
+        { "label": "Alain Prost", "value": "4" },
+        { "label": "Max Verstappen", "value": "4" },
+        { "label": "Sebastian Vettel", "value": "4" },
+        { "label": "Jack Brabham", "value": "3" },
+        { "label": "Niki Lauda", "value": "3" },
+        { "label": "Nelson Piquet", "value": "3" },
+        { "label": "Ayrton Senna", "value": "3" },
+        { "label": "Jackie Stewart", "value": "3" }
+      ]
+    },
+    {
+      "id": "ballon-dor-winners",
+      "title": "Most Ballon d'Or wins (men)",
+      "source": "France Football",
+      "reviewed": false,
+      "entries": [
+        { "label": "Lionel Messi", "value": "8" },
+        { "label": "Cristiano Ronaldo", "value": "5" },
+        { "label": "Johan Cruyff", "value": "3" },
+        { "label": "Michel Platini", "value": "3" },
+        { "label": "Marco van Basten", "value": "3" },
+        { "label": "Franz Beckenbauer", "value": "2" },
+        { "label": "Alfredo Di Stéfano", "value": "2" },
+        { "label": "Kevin Keegan", "value": "2" },
+        { "label": "Ronaldo (Nazário)", "value": "2" },
+        { "label": "Karl-Heinz Rummenigge", "value": "2" }
+      ]
+    },
+    {
+      "id": "champions-league-titles-2025",
+      "title": "Most European Cup / Champions League titles by club (as of 2025)",
+      "source": "UEFA",
+      "reviewed": false,
+      "entries": [
+        { "label": "Real Madrid", "value": "15" },
+        { "label": "AC Milan", "value": "7" },
+        { "label": "Bayern Munich", "value": "6" },
+        { "label": "Liverpool", "value": "6" },
+        { "label": "Barcelona", "value": "5" },
+        { "label": "Ajax", "value": "4" },
+        { "label": "Inter Milan", "value": "3" },
+        { "label": "Manchester United", "value": "3" },
+        { "label": "Benfica", "value": "2" },
+        { "label": "Chelsea", "value": "2" },
+        { "label": "Juventus", "value": "2" },
+        { "label": "Nottingham Forest", "value": "2" },
+        { "label": "Porto", "value": "2" }
+      ]
+    },
+    {
+      "id": "eurovision-wins-2025",
+      "title": "Most Eurovision Song Contest wins by country (as of 2025)",
+      "source": "European Broadcasting Union",
+      "reviewed": false,
+      "entries": [
+        { "label": "Ireland", "value": "7" },
+        { "label": "Sweden", "value": "7" },
+        { "label": "France", "value": "5" },
+        { "label": "Luxembourg", "value": "5" },
+        { "label": "Netherlands", "value": "5" },
+        { "label": "United Kingdom", "value": "5" },
+        { "label": "Israel", "value": "4" },
+        { "label": "Denmark", "value": "3" },
+        { "label": "Italy", "value": "3" },
+        { "label": "Norway", "value": "3" },
+        { "label": "Ukraine", "value": "3" }
+      ]
+    },
+    {
+      "id": "largest-deserts",
+      "title": "Largest deserts in the world (incl. polar deserts)",
+      "source": "Common reference areas",
+      "reviewed": false,
+      "entries": [
+        { "label": "Antarctic Desert", "value": "14.2M km²" },
+        { "label": "Arctic Desert", "value": "13.9M km²" },
+        { "label": "Sahara", "value": "9.2M km²" },
+        { "label": "Australian Desert", "value": "2.7M km²" },
+        { "label": "Arabian Desert", "value": "2.3M km²" },
+        { "label": "Gobi", "value": "1.3M km²" },
+        { "label": "Kalahari", "value": "0.9M km²" },
+        { "label": "Patagonian Desert", "value": "0.67M km²" },
+        { "label": "Syrian Desert", "value": "0.5M km²" },
+        { "label": "Great Basin Desert", "value": "0.49M km²" }
+      ]
+    },
+    {
+      "id": "most-spoken-languages",
+      "title": "Most spoken languages (total speakers, Ethnologue 2023)",
+      "source": "Ethnologue",
+      "reviewed": false,
+      "entries": [
+        { "label": "English", "value": "1.46B" },
+        { "label": "Mandarin Chinese", "value": "1.14B" },
+        { "label": "Hindi", "value": "610M" },
+        { "label": "Spanish", "value": "559M" },
+        { "label": "French", "value": "310M" },
+        { "label": "Modern Standard Arabic", "value": "274M" },
+        { "label": "Bengali", "value": "273M" },
+        { "label": "Portuguese", "value": "264M" },
+        { "label": "Russian", "value": "255M" },
+        { "label": "Urdu", "value": "232M" },
+        { "label": "Indonesian", "value": "199M" },
+        { "label": "German", "value": "133M" }
+      ]
+    }
+  ]
+}
