@@ -63,7 +63,8 @@ if ($Setup) {
     }
     Invoke-Gcloud billing projects link $Project --billing-account=$BillingAccount | Out-Null
     G services enable run.googleapis.com cloudbuild.googleapis.com artifactregistry.googleapis.com `
-        secretmanager.googleapis.com sqladmin.googleapis.com iap.googleapis.com iam.googleapis.com
+        secretmanager.googleapis.com sqladmin.googleapis.com iap.googleapis.com iam.googleapis.com `
+        cloudresourcemanager.googleapis.com
     # freshly enabled APIs need a moment before they accept calls (otherwise 403 PERMISSION_DENIED)
     for ($i = 0; $i -lt 12; $i++) {
         gcloud artifacts repositories list --location=$Region --project=$Project --format="value(name)" 2>$null | Out-Null
